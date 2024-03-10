@@ -1,0 +1,39 @@
+.header {
+    background-color: #ffe7ec;
+    width: 1920px;
+    height: 850px;
+    position: absolute;
+}
+.wing-img {
+    margin-left: 1100px; 
+    margin-top:51px;
+    width: 635px;
+    height: 800px;
+}
+.title-intro {
+    position: absolute;
+    top: 18%;
+    color: #272727;
+    font-size: 80px;
+    margin-left: 200px;
+    width: 708px;
+}
+.paragraph-intro {
+    top: 60%;
+    position: absolute;
+    margin-left: 200px;
+    font-size: 18px;
+    color: #272727;
+    width: 634px;
+    font-family: 'Lato';
+}
+.intro-btn {
+    position: absolute;
+    top: 72%;
+    margin-left: 200px;
+    background-color: #E55473;
+    color: #ffffff;
+    border: 0px;
+    padding: 10px;
+    
+}
