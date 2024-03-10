@@ -2,7 +2,7 @@
     background-color: #ffe7ec;
     width: 1920px;
     height: 850px;
-    position: absolute;
+    /* position: absolute; */
 }
 .wing-img {
     margin-left: 1100px; 
@@ -19,7 +19,7 @@
     width: 708px;
 }
 .paragraph-intro {
-    top: 60%;
+    top: 56%;
     position: absolute;
     margin-left: 200px;
     font-size: 18px;
@@ -29,7 +29,7 @@
 }
 .intro-btn {
     position: absolute;
-    top: 72%;
+    top: 68%;
     margin-left: 200px;
     background-color: #E55473;
     color: #ffffff;
@@ -39,7 +39,225 @@
 }
 
 /* main 1st section */
-.flower-item {
-    display: block;
-    color: black;
+/* first div  */
+.f-div {
+   
+   text-align: center;
+   
+}
+.fd-head {
+    font-size: 40px;
+    color: #272727;
+   margin-bottom: 1px;
+    
+}
+.fd-p {
+   color: #272727;
+   font-size: 18px;
+   font-family: 'Lato';
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.s-div {
+    text-align: center;
+    width: 1440px;
+    height: 205px;
+    /* display: flex; */
+    
+}
+.s-div img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+}
+
+/* img styles  */
+.st-img {
+    background-color: #defafc;
+    /* padding: 50px 10px; */
+    border-radius: 200px 200px 0px 0px;
+    padding-top: 50px;
+    width: 464px;
+    height: 605px;
+}
+.snd-img {
+    background-color: #fae3ee;
+    border-radius: 200px 200px 0px 0px;
+    padding: 40px;
+    width: 350px;
+    /* height: px; */
+    padding-bottom: 0px;
+    
+  
+}
+.trd-img {
+    background-color: #e9f3de;
+    border-radius: 200px 200px 0px 0px ;
+    padding-top: 30px;
+    width: 350px;
+    padding-bottom: 0px;
+    padding: 0px 40px 0px 40px;
+}
+.fp {
+   margin-left: 400px;
+   margin-top: 350px;
+   display: flex;
+
+}
+.conta {
+    margin-right: 100px;
+    margin-left: 50px;
+}
+.contai {
+    margin-right: 100px;
+    margin-left: 250px ;
+}
+ .contain {
+    margin-left: 230px;
+ }
+
+ /* second section styles  */
+
+ .second-s {
+    width: 1922px;
+    height: 620px;
+    background-color: #f5e4e8;
+    display: flex;
+ }
+ .second-img {
+    margin-left: 250px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+   
+ }
+ .hot {
+    color: #272727;
+        font-size: 40px;
+        display: block;
+        margin-bottom: 0px;
+ }
+    .text {
+        display: inline-block;
+        margin-left: 450px;
+        margin-top: 190px;
+        width: 595px;
+    }
+    .itis {
+        margin-top: 0px;
+    }
+    .button {
+        background-color: #E55473;
+    color: #ffffff;
+    border: 0px;
+    padding: 10px 20px 10px 20px;
+    }
+
+    /* third section  */
+.insta {
+    color: #272727;
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-top: 150px;
+}
+.trd-header {
+    
+    text-align: center;
+}
+.igp {
+    font-size: 18px;
+    color: #272727;
+    margin-top: 0px;
+}
+
+/* four img  */
+.four-img {
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.fo-img {
+    margin-right: 20px;
+}
+
+/* last section  */
+.the-last {
+    width: 1440px;
+    height: 449px;
+    background-image:url(../images/Rectangle\ 9.png);
+    background-position: bottom right, left;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    position: relative;
+    width: 1140px;
+    height: 300px;
+    margin:150px 400px ;
+
+}
+.lasth {
+    font-size: 40px;
+    color: #272727;
+    text-align: center;
+    margin-top: 70px;
+}
+.lastp {
+    font-size: 18px;
+    color: #272727;
+    text-align: center;
+}
+.email {
+   
+    position: absolute;
+    margin-left: 300px ;
+    border: 0px;
+    border-radius: 5px;
+    color: #272727;
+    background-color: #ffffff;
+    width: 500px;
+    height: 30px;
+    padding-left: 10px;
+}
+.last-btn {
+    background-color: #E55473;
+    color: #ffffff;
+    border: 0px;
+    padding: 10px 20px 10px 20px;
+    margin-left: 820px;
+    border-radius: 5px;
+}
+    
+
+/* footer styles  */
+
+.footer {
+    width: 1922px;
+    height: 449px;
+    background-color: #111010;
+    text-align: center;
+    
+}
+.footer-div {
+    margin-top: 100px;
+    position: absolute;
+    margin-left: 750px;
+}
+.footerh {
+    font-size: 48px;
+    color: #FFFFFF;
+font-weight: 700;
+}
+.flowers {
+    color: #E55473;
+}
+.footerp {
+    color: #FFFFFF;
+    font-size: 18px;
+}
+.all-rights {
+    font-size: 16px;
+    color: #d4cfcf;
+
 }
