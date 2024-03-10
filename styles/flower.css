@@ -37,3 +37,9 @@
     padding: 10px;
     
 }
+
+/* main 1st section */
+.flower-item {
+    display: block;
+    color: black;
+}
